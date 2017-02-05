@@ -64,6 +64,7 @@ static struct state_info {
 	.batt_level = 100
 };
 
+struct msm_thermal_data msm_thermal_info;
 static struct notifier_block notif;
 static struct workqueue_struct *helper_wq;
 static struct delayed_work helper_work;
